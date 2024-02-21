@@ -1,1 +1,77 @@
-/* Your code here */
+body {
+    margin: 4%;
+}
+.nav-upper-left {
+    display: flex;
+    width: 7%;
+    justify-content: space-around;
+}
+
+.nav-upper-right {
+    display: flex;
+    width: 21%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-button-subscribe {
+    width: fit-content;
+    text-align: center;
+    min-width: 110px;
+}
+
+.nav-button-login {
+    width: fit-content;
+    text-align: center;
+    min-width: 50px;
+}
+
+.navbar {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-bottom: 1px solid white;
+    color: gray;
+    position: relative;
+    top: 1px;
+}
+
+.header {
+    padding: 0px;
+}
+
+.lower-header {
+    display: flex;
+    justify-content: center;
+}
+
+.lowest-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-top: 1px solid lightgray;
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid lightgray;
+}
+
+.nav-text {
+    padding: 1%
+}
+
+.header-image {
+    width: 40%;
+}
+
+.todays-paper {
+    margin: 0% 3%;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%
+}
