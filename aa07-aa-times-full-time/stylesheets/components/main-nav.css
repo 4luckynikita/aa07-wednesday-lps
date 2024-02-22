@@ -1,1 +1,10 @@
 /* Your code here */
+.sub-header > ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+
+}
+.sub-header{
+    padding: 0 15%;
+}

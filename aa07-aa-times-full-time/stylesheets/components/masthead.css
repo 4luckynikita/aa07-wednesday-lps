@@ -1,9 +1,9 @@
 body {
-    margin: 4%;
+    margin:1% 4%;
 }
 .nav-upper-left {
     display: flex;
-    width: 7%;
+    width: 35px;
     justify-content: space-around;
 }
 
@@ -29,7 +29,7 @@ body {
 
 .navbar {
     display: flex;
-    width: 30%;
+    width: 23%;
     justify-content: space-around;
     align-items: center;
     border: 1px solid lightgray;
@@ -37,6 +37,7 @@ body {
     color: gray;
     position: relative;
     top: 1px;
+    background-color: white;
 }
 
 .header {
@@ -67,11 +68,15 @@ body {
 
 .todays-paper {
     margin: 0% 3%;
+    font-size: 11px;
 }
 
 .upper-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2%
+    margin: 3px;
+}
+.header p {
+    font-size: 11px;
 }

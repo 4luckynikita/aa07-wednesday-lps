@@ -1,1 +1,77 @@
 /* Your code here */
+.interest-image{
+width: 80px;
+height: 80px;
+padding:4px 12px;
+}
+.interest-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    border-right: 1px solid lightgray;
+    margin: 4px;
+    width: 25%;
+}
+.interest-text{
+    font-size: 12px;
+}
+.interest-links{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1% 0;
+}
+.stock-container{
+    display: flex;
+    padding: 2px;
+    border-right: 1px solid lightgray;
+    margin: 4px;
+    width: 12.5%;
+}
+.weather-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    margin: 4px;
+    width: 12.5%;
+}
+.stock-info{
+    display: flex;
+    justify-content: space-between;
+}
+.stock-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0 4%;
+}
+.stock-price{
+    color: green;
+}
+.middle{
+    border-bottom: 1px solid lightgray;
+}
+.top{
+    border-bottom: 1px solid lightgray;
+}
+.weather-text{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+.temperature{
+    font-size: 20px;
+}
+
+@media (max-width: 1000px){
+    .interest-links{
+        display: none;
+    }
+    .sub-header{
+        display: none;
+    }
+}
